@@ -1,0 +1,186 @@
+body {
+  background: #222;
+  color:aliceblue;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header{
+  background: #111;
+  padding: 0px;
+  margin: 0;
+  text-indent: 10px;
+}
+header * {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+header h1 {
+  padding: 10px;
+  margin: 0;
+  
+}
+
+nav  {
+
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  background:#333;
+  height: 100%;
+  position: fixed;
+  top: 58px;
+  left: -100000000000px
+}
+nav ul  {
+margin: 100px 0 0 0;
+padding: 0;
+}
+
+nav ul li {
+text-indent: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: #eee;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+
+}
+nav ul li a:hover {
+  color: #E3D081;
+  border-bottom-color:#E3D081;
+}
+nav ul li h2 {
+  color: #E3D081;
+}
+
+form{
+  margin-top: 20px;
+}
+
+form label {
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+
+form input {
+  padding: 10px 0;
+  width: 100%;
+  text-indent: 5px;
+  border:none;
+  font-size: 26px;
+  background: none;
+  border-bottom:1px solid #111;
+  margin-bottom: 10px;
+}
+
+form input[type="submit"]{
+  background: #54494B;
+  color: #eee;
+  width: 30%;
+
+}
+
+
+#container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+ 
+}
+#menu {
+  font-size: 20px;
+  text-indent: 0;
+  margin: 0px;
+  width: 30px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+#close {
+  background: red;
+  padding: 10px;
+  width: 30px;
+  cursor: pointer;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+#menu:hover {
+  background: #333;
+  color: #eee;
+}
+#back {
+  width: 100px;
+}
+
+#back a {
+  background: #222;
+  color: #eee;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+
+}
+#message {
+  font-size: 20px;
+  background: #43D39A;
+  color: #eee;
+  padding: 10px;
+display: none;
+}
+
+.main {
+padding: 10px;
+width: 70%;
+color: #111;
+background: #F1F7ED;
+margin: 90px auto;
+box-shadow: 0px 0px 20px #000;
+}
+.main h1 {
+  color: #54494B;
+  margin: 0;
+  padding: 0;
+}
+
+
+.meetup {
+  padding: 0;
+  margin: 0;
+ font-size: 20px;
+}
+.meetup a {
+  border-bottom:1px solid #54494B;
+  padding: 10px;
+  color: #54494B;
+  text-decoration: none;
+  display: block;
+
+}
+.meetup a:hover {
+  background: #43D39A;
+  border-bottom-color: #eee;
+  }
+
+.details-box {
+  width: 70%;
+  font-size: 18px;
+  border-left: 1px solid #111;
+  padding: 10px;
+  color: #111;
+  margin: 0 auto;
+}
